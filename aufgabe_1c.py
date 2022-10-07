@@ -9,7 +9,7 @@ h = {
 }
 
 # Programmieren Sie hier die Werte der 
-# Koppler wie in Aufgabe 1b in der Form
+# Koppler wie in Aufgabe 1a in der Form
 # (qubit1, qubit2): Kopplerwert,
 J = {
 

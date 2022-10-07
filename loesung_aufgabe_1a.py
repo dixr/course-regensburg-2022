@@ -5,8 +5,10 @@ sampler = DWaveSampler(
     solver='DW_2000Q_6',
 )
 
-# Programmierung der hi
+# Programmierung der bias hi
 h = {
+    0: 0,
+    4: 0.5,
 }
 
 # Programmierung der Koppler Jij
