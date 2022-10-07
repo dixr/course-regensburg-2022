@@ -4,7 +4,6 @@ import dwave.inspector
 sampler = EmbeddingComposite(DWaveSampler(
     solver='DW_2000Q_6',
     #solver='Advantage_system4.1',
-    #token='',
 ))
 
 h = {}

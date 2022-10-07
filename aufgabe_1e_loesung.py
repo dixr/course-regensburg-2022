@@ -3,7 +3,6 @@ import dwave.inspector
 
 sampler = DWaveSampler(
     solver='DW_2000Q_6',
-    #token='',
 )
 
 # 0 = Lauch

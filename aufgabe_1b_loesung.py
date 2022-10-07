@@ -11,7 +11,7 @@ h = {
 
 # Programmierung der Koppler Jij
 J = {
-    (0,4): +1,  # Beispiel
+    (0,4): -1,  # Beispiel
 }
 
 response = sampler.sample_ising(

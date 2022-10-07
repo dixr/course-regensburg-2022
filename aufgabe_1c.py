@@ -5,13 +5,14 @@ sampler = DWaveSampler(
     solver='DW_2000Q_6',
 )
 
-# Programmierung der hi
 h = {
 }
 
-# Programmierung der Koppler Jij
+# Programmieren Sie hier die Werte der 
+# Koppler wie in Aufgabe 1b in der Form
+# (qubit1, qubit2): Kopplerwert,
 J = {
-    (0,4): +1,  # Beispiel
+
 }
 
 response = sampler.sample_ising(
