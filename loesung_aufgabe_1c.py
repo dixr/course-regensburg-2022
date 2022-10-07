@@ -8,10 +8,10 @@ sampler = DWaveSampler(
 h = {}
 
 # Hier wählen wir:
-# 0 = Lauch
-# 4 = Sellerie
-# 7 = Erbsen
-# 3 = Mais
+# Qubit 0 = Lauch
+# Qubit 4 = Sellerie
+# Qubit 7 = Erbsen
+# Qubit 3 = Mais
 J = {
     (0,4): -1,
     (0,7): +1,
